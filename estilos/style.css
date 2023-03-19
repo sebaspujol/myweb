@@ -60,29 +60,16 @@ nav ul {
     display: flex;
     align-items: flex-end;
 }
- 
-header {
-position: sticky;
-top: 0;
-display: flex;
-background-color:  rgb(123, 122, 122);
-justify-content: space-between; 
 
-}
+ .nav-link {
+    color: rgb(36, 34, 34);
+    font-size: 1.1rem;
+    font-weight: bolder;
 
-
- ul li {
-    list-style: none;
-    margin: 35px;
-    display: flex;
-    
  }
 
- ul li a {
-    color  :azure;
-    font-size: 1.4 rem;
-    text-decoration: none; 
-    display: flex;
+ .navbar-collapse {
+    justify-content: flex-end;
  }
 
 p2 {
@@ -177,3 +164,13 @@ width: 20%;
 }
   }
 
+.header {
+    color: black;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: black;
+}
