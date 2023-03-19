@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+ * {
+    padding: 0;
+    margin: 10;
+ }
+
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+h2 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+h3 {
+    text-align: center;
+    padding: 0px
+}
+
+h4 {
+    text-align: center;
+    background-color: beige;
+}
+
+h5 {
+    text-align: center;
+    text-size-adjust: 20px;
+
+}
+
+h6 {
+    text-align: center;
+
+}
+
+p {
+    padding: 50px;
+    text-align: center;
+ }
+
+
+
+
+ body {
+    background-color: rgb(123, 122, 122);
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-nav {
+    padding: 20px;
+    background-color: rgb(12, 10, 10);
+    display: flex;
+    align-items: flex-end;
+
+}
+nav ul {
+    display: flex;
+    align-items: flex-end;
+}
+ 
+header {
+position: sticky;
+top: 0;
+display: flex;
+background-color:  rgb(123, 122, 122);
+justify-content: space-between; 
+
+}
+
+
+ ul li {
+    list-style: none;
+    margin: 35px;
+    display: flex;
+    
+ }
+
+ ul li a {
+    color  :azure;
+    font-size: 1.4 rem;
+    text-decoration: none; 
+    display: flex;
+ }
+
+p2 {
+    color: rgb(35, 1, 1);
+    height: 100px;
+    font-weight: bolded;
+}
+
+footer {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+margin: 90px;
+border-top: 3px solid black;
+
+
+}
+
+
+.CVS
+{
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+margin-right: 130px;
+
+}
+
+.Cursos
+{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 30px;
+}
+
+.twitter-timeline
+{
+width: 200;
+height: 200; 
+}
+
+.photo-container {
+    display: grid;
+    place-content: center;
+  }
+
+.galeria-conteiner {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* gap: 10px; */
+    grid-row-gap: 60px;
+    justify-items: center;
+    margin-top: 20px;
+
+  }
+
+  .cvs-conteiner {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* gap: 10px; */
+    grid-row-gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+
+  }
+
+  .photo-container {
+    align-items: center;
+  }
+
+
+
+
+  /* MEDIA QUERIES*/
+
+  @media only screen and (max-widht: 768px) {}
+
+  @media only screen and (max-widht: 576px) {
+header {
+    flex-direction: column;
+}
+.menu-nav {
+padding: 10px 0px;
+}
+
+.galeria-conteiner {
+flex-direction: column;
+align-items: center;
+width: 20%;
+}
+  }
+
