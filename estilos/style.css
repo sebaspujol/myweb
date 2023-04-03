@@ -3,8 +3,7 @@
  * {
     padding: 0;
     margin: 10;
- }
-
+}
 h1 {
     text-align: center;
     padding: 50px;
@@ -13,138 +12,104 @@ h2 {
     text-align: center;
     color: antiquewhite;
 }
-
 h3 {
     text-align: center;
     padding: 0px
 }
-
 h4 {
     text-align: center;
     background-color: beige;
 }
-
 h5 {
     text-align: center;
     text-size-adjust: 20px;
-
 }
-
 h6 {
     text-align: center;
-
 }
-
 p {
     padding: 50px;
     text-align: center;
  }
-
-
-
-
  body {
     background-color: rgb(123, 122, 122);
     color: black;
     font-family: 'Raleway', sans-serif;
 }
-
 .menu-nav {
     padding: 20px;
     background-color: rgb(12, 10, 10);
     display: flex;
     align-items: flex-end;
-
 }
 nav ul {
     display: flex;
     align-items: flex-end;
 }
-
  .nav-link {
     color: rgb(36, 34, 34);
     font-size: 1.1rem;
     font-weight: bolder;
-
  }
-
  .navbar-collapse {
     justify-content: flex-end;
  }
-
 p2 {
     color: rgb(35, 1, 1);
     height: 100px;
     font-weight: bolded;
 }
-
 footer {
 display: flex;
 justify-content: center;
 margin-top: 30px;
 margin: 90px;
 border-top: 3px solid black;
-
-
 }
-
-
 .CVS
 {
 display: flex;
 justify-content: space-between;
 margin-top: 30px;
 margin-right: 130px;
-
 }
-
-.Cursos
-{
-    display: flex;
-    justify-content:space-between;
-    margin-left: 30px;
-}
-
 .twitter-timeline
 {
 width: 200;
 height: 200; 
 }
-
 .photo-container {
     display: grid;
     place-content: center;
-  }
-
+}
 .galeria-conteiner {
     display: grid;
     grid-template-columns: repeat (4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     /* gap: 10px; */
-    grid-row-gap: 60px;
+    grid-row-gap: 5px;
     justify-items: center;
-    margin-top: 20px;
-
+    margin-top: 5px;
   }
-
-  .cvs-conteiner {
+.cv-conteiner {
     display: grid;
     grid-template-columns: repeat (4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(1,5, 1fr);
     /* gap: 10px; */
-    grid-row-gap: 20px;
     justify-items: center;
-    margin-top: 20px;
-
-  }
-
-  .photo-container {
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+.photo-container {
     align-items: center;
-  }
-
-
-
-
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    /* gap: 10px; */
+    grid-row-gap: 5px;
+    justify-items: center;
+    margin-top: 5px;
+}
   /* MEDIA QUERIES*/
 
   @media only screen and (max-widht: 768px) {}
@@ -156,20 +121,17 @@ header {
 .menu-nav {
 padding: 10px 0px;
 }
-
 .galeria-conteiner {
 flex-direction: column;
 align-items: center;
-width: 20%;
+width: 5%;
 }
-  }
-
+}
 .header {
     color: black;
     font-size: 27px;
     padding: 10px;
 }
-
 .bigicon {
     font-size: 35px;
     color: black;
