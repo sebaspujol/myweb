@@ -1,3 +1,11 @@
+@import "index";
+@import "about me";
+@import "projects";
+@import "leisure";
+@import "contact";
+
+ /*estilos generales*/
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
  * {
@@ -46,13 +54,14 @@ nav ul {
     display: flex;
     align-items: flex-end;
 }
- .nav-link {
-    color: rgb(36, 34, 34);
-    font-size: 1.1rem;
-    font-weight: bolder;
- }
+
  .navbar-collapse {
     justify-content: flex-end;
+    .nav-link {
+        color: rgb(36, 34, 34);
+        font-size: 1.1rem;
+        font-weight: bolder;
+     }
  }
 p2 {
     color: rgb(35, 1, 1);
@@ -73,43 +82,7 @@ justify-content: space-between;
 margin-top: 30px;
 margin-right: 130px;
 }
-.twitter-timeline
-{
-width: 200;
-height: 200; 
-}
-.photo-container {
-    display: grid;
-    place-content: center;
-}
-.galeria-conteiner {
-    display: grid;
-    grid-template-columns: repeat (4, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    /* gap: 10px; */
-    grid-row-gap: 5px;
-    justify-items: center;
-    margin-top: 5px;
-  }
-.cv-conteiner {
-    display: grid;
-    grid-template-columns: repeat (4, 1fr);
-    grid-template-rows: repeat(1,5, 1fr);
-    /* gap: 10px; */
-    justify-items: center;
-    margin-bottom: 5px;
-    border-bottom: 1px solid black;
-}
-.photo-container {
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat (4, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    /* gap: 10px; */
-    grid-row-gap: 5px;
-    justify-items: center;
-    margin-top: 5px;
-}
+
   /* MEDIA QUERIES*/
 
   @media only screen and (max-widht: 768px) {}
